@@ -4,7 +4,7 @@
 Welcome to my portfolio! Here you will find a myriad of projects I am working on or have completed. 
 
 | Tech Skills | Soft Skills |
------------------------------
+---------------|--------------
 | C# | Compassion |
 | JavaScript | Team Player |
 | SQL | Critical Thinking |
