@@ -1,0 +1,646 @@
+{
+  "id": "6cc608d5-28c0-42b0-8b7b-521d892f2f66",
+  "version": "2.0",
+  "name": "MagentoTesting",
+  "url": "https://magento.softwaretestingboard.com/",
+  "tests": [{
+    "id": "49b1198e-f3ce-4df6-b791-08a213b70654",
+    "name": "Adding Item to Cart",
+    "commands": [{
+      "id": "68791493-2429-4983-a079-eddbfeaf94e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2123bda7-d88f-42e2-9548-25b9ccc4468a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "982x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a161a9f7-e75b-4b60-8d66-f95bfab61433",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "630e2188-0ec6-4e9e-990e-1c46aa5029ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1618)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5bfb249-9f8e-4a18-b3f7-5da073a19f4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(5) .product-image-photo",
+      "targets": [
+        ["css=.product-item:nth-child(5) .product-image-photo", "css:finder"],
+        ["xpath=//img[@alt='Fusion Backpack']", "xpath:img"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/div[3]/div/div/ol/li[5]/div/a/span/span/img", "xpath:idRelative"],
+        ["xpath=//li[5]/div/a/span/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb54eb67-cc3f-45f1-bf1a-e1564d1cbb93",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#product-addtocart-button > span",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "1cb7ba93-371b-478a-b016-b77c80eead55",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span",
+      "targets": [
+        ["css=#product-addtocart-button > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fc26ef8f-8105-4a17-b623-5127c4474528",
+    "name": "Removing Items",
+    "commands": [{
+      "id": "3a06575e-9ba4-41a8-bad1-5e517b73279d",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7b89163-ff37-428b-a0b3-aae9d551fd2c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "982x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8df8715f-f1fb-439c-811b-16ca649719c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.counter-number",
+      "targets": [
+        ["css=.counter-number", "css:finder"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bbb4bd7-d6f5-4414-94ba-c3b2e93507f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart",
+      "targets": [
+        ["css=.showcart", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b13c7df3-5a61-43bd-a272-c0b92f18e4ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c025d10-7696-4e54-bcac-25d62d0e8439",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Edit",
+      "targets": [
+        ["linkText=Edit", "linkText"],
+        ["css=.cart:nth-child(3) .action-edit", "css:finder"],
+        ["xpath=//table[@id='shopping-cart-table']/tbody/tr[2]/td/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/checkout/cart/configure/id/677974/product_id/1194/')])[2]", "xpath:href"],
+        ["xpath=//td/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "747313d9-72cd-4119-b00e-efee9e38fce0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart:nth-child(4) .action-delete",
+      "targets": [
+        ["css=.cart:nth-child(4) .action-delete", "css:finder"],
+        ["xpath=//table[@id='shopping-cart-table']/tbody[2]/tr[2]/td/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//tbody[2]/tr[2]/td/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e4b7ac7-abd6-4ae1-b969-278f61ab2c91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove item",
+      "targets": [
+        ["linkText=Remove item", "linkText"],
+        ["css=.cart:nth-child(3) .action-delete", "css:finder"],
+        ["xpath=//table[@id='shopping-cart-table']/tbody/tr[2]/td/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1b62ad21-4520-4e1f-9bef-1069482d2cbd",
+    "name": "Opening Website",
+    "commands": [{
+      "id": "51e4ddb0-6748-476e-8197-761ca00bdaed",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5a216d45-1b2e-4c03-a821-12c90c9c4ef5",
+    "name": "Checking Out",
+    "commands": [{
+      "id": "ac8b887c-2668-4ed1-b6cb-cae7a15f7023",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b549946-6f74-44f8-bdd7-8be24ced1466",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "991x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4853cc55-3e12-4ff3-8aad-46695fc4e274",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fdb2ce8-f96a-4971-ba1f-1b121a3a6337",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "voyage yoga bag"
+    }, {
+      "id": "9218b19b-21a3-4a4e-bbbb-462c83b04469",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "354395a2-e003-411f-9682-4ad4b3cf2234",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Voyage Yoga Bag",
+      "targets": [
+        ["linkText=Voyage Yoga Bag", "linkText"],
+        ["css=.item:nth-child(12) .product-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Voyage Yoga Bag')]", "xpath:link"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/div[2]/ol/li[12]/div/div/strong/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/voyage-yoga-bag.html')])[2]", "xpath:href"],
+        ["xpath=//li[12]/div/div/strong/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Voyage Yoga Bag')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b819f0e-facb-4dcf-9956-c3f16ff7ecc7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=product-addtocart-button",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "2b064b3e-5105-4778-a62d-aea2015054fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6e1134b-1f3b-4075-9a1a-cc8fad3f74e8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,371)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b17c279c-5088-4ce2-9f0e-78cb18b5cb0b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.showcart",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "f18127e6-be68-4ee7-a0a9-430902f395e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart",
+      "targets": [
+        ["css=.showcart", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5499edb5-2646-4d03-8350-69649bd31db6",
+      "comment": "",
+      "command": "click",
+      "target": "id=top-cart-btn-checkout",
+      "targets": [
+        ["id=top-cart-btn-checkout", "id"],
+        ["css=#top-cart-btn-checkout", "css:finder"],
+        ["xpath=//button[@id='top-cart-btn-checkout']", "xpath:attributes"],
+        ["xpath=//div[@id='minicart-content-wrapper']/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed to Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5debd085-b521-4aa1-9441-ca31f6756bb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer-email",
+      "targets": [
+        ["id=customer-email", "id"],
+        ["css=.\\_with-tooltip > #customer-email", "css:finder"],
+        ["xpath=//input[@id='customer-email']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='customer-email-fieldset']/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ab5407-763f-4e40-b3a4-c79ad2f5a50b",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer-email",
+      "targets": [
+        ["id=customer-email", "id"],
+        ["css=.\\_with-tooltip > #customer-email", "css:finder"],
+        ["xpath=//input[@id='customer-email']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='customer-email-fieldset']/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "test@tester.com"
+    }, {
+      "id": "82a0e514-ebdc-4a24-bc31-3320bcf8bd2e",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["id=QM3XSKQ", "id"],
+        ["name=firstname", "name"],
+        ["css=#QM3XSKQ", "css:finder"],
+        ["xpath=//input[@id='QM3XSKQ']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a69e15c5-c9d4-47f8-96f6-b457d3ea7819",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["id=QM3XSKQ", "id"],
+        ["name=firstname", "name"],
+        ["css=#QM3XSKQ", "css:finder"],
+        ["xpath=//input[@id='QM3XSKQ']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "29b7cd71-a122-47da-80ba-21cb73d6d17a",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["id=M5N5K3N", "id"],
+        ["name=lastname", "name"],
+        ["css=#M5N5K3N", "css:finder"],
+        ["xpath=//input[@id='M5N5K3N']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Tester"
+    }, {
+      "id": "b5223381-2a5f-4492-9907-45f14cba03c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=street[0]",
+      "targets": [
+        ["id=BMSPUBA", "id"],
+        ["name=street[0]", "name"],
+        ["css=#BMSPUBA", "css:finder"],
+        ["xpath=//input[@id='BMSPUBA']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88a21d58-13d5-4e73-b83b-d062f2754c84",
+      "comment": "",
+      "command": "type",
+      "target": "name=street[0]",
+      "targets": [
+        ["id=BMSPUBA", "id"],
+        ["name=street[0]", "name"],
+        ["css=#BMSPUBA", "css:finder"],
+        ["xpath=//input[@id='BMSPUBA']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123 Tester Ln"
+    }, {
+      "id": "575b4c26-1dcd-42c7-8be8-952cb6b88af8",
+      "comment": "",
+      "command": "click",
+      "target": "name=city",
+      "targets": [
+        ["id=WVE4V9V", "id"],
+        ["name=city", "name"],
+        ["css=#WVE4V9V", "css:finder"],
+        ["xpath=//input[@id='WVE4V9V']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "459eb786-f58d-4f9c-b737-fb886e1fc6e0",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["id=WVE4V9V", "id"],
+        ["name=city", "name"],
+        ["css=#WVE4V9V", "css:finder"],
+        ["xpath=//input[@id='WVE4V9V']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Testerville"
+    }, {
+      "id": "711d9d84-4b20-4141-86d2-5296bfa43f9f",
+      "comment": "",
+      "command": "click",
+      "target": "name=region_id",
+      "targets": [
+        ["id=NKP3BEV", "id"],
+        ["name=region_id", "name"],
+        ["css=#NKP3BEV", "css:finder"],
+        ["xpath=//select[@id='NKP3BEV']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[5]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6701adb1-994d-4cc1-ab73-9d46450672e5",
+      "comment": "",
+      "command": "select",
+      "target": "name=region_id",
+      "targets": [],
+      "value": "label=Tennessee"
+    }, {
+      "id": "4f5ef88b-ed94-4171-83f4-16975eba8eff",
+      "comment": "",
+      "command": "click",
+      "target": "name=postcode",
+      "targets": [
+        ["id=J0F0VHC", "id"],
+        ["name=postcode", "name"],
+        ["css=#J0F0VHC", "css:finder"],
+        ["xpath=//input[@id='J0F0VHC']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06c319b6-ba90-4119-bb1b-6c941b85cb2e",
+      "comment": "",
+      "command": "type",
+      "target": "name=postcode",
+      "targets": [
+        ["id=J0F0VHC", "id"],
+        ["name=postcode", "name"],
+        ["css=#J0F0VHC", "css:finder"],
+        ["xpath=//input[@id='J0F0VHC']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "00000"
+    }, {
+      "id": "3276b5ec-5436-4034-b400-00be4ba1e176",
+      "comment": "",
+      "command": "click",
+      "target": "name=telephone",
+      "targets": [
+        ["id=E7S9TVC", "id"],
+        ["name=telephone", "name"],
+        ["css=#E7S9TVC", "css:finder"],
+        ["xpath=//input[@id='E7S9TVC']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec343bc7-15fc-4054-8bac-a163bbefbd02",
+      "comment": "",
+      "command": "type",
+      "target": "name=telephone",
+      "targets": [
+        ["id=E7S9TVC", "id"],
+        ["name=telephone", "name"],
+        ["css=#E7S9TVC", "css:finder"],
+        ["xpath=//input[@id='E7S9TVC']", "xpath:attributes"],
+        ["xpath=//div[@id='shipping-new-address-form']/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": "1234567890"
+    }, {
+      "id": "271c69f4-378d-4092-ba14-6bc78dcc284c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .col:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(2) > .col:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='checkout-shipping-method-load']/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3221a5-909e-434d-a37f-8d660ffa717b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button > span",
+      "targets": [
+        ["css=.button > span", "css:finder"],
+        ["xpath=//div[@id='shipping-method-buttons-container']/div/button/span", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f41643e-e900-4d61-8514-3c62a9809c5b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dff4cafa-dbd1-471f-9ba0-3d3c2fb6b581",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout > span",
+      "targets": [
+        ["css=.checkout > span", "css:finder"],
+        ["xpath=//div[@id='checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4cfff6cb-0ca7-4c20-9c93-adeec74ce82c",
+    "name": "Searching For Item",
+    "commands": [{
+      "id": "712cfbfd-2664-4cb7-b642-04cb1e198995",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08483ffc-061c-46f5-8deb-e284ff83b56a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "960x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "467e680a-ac7b-408b-87e6-7ea4cfe8ed06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.actions > .action",
+      "targets": [
+        ["css=.actions > .action", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28dee499-f67e-4d50-bd2f-6d44f0768dfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f95d28-455c-4dd0-9018-d2f979849346",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Shirt"
+    }, {
+      "id": "2c5e5f61-141c-4305-b38b-0000e1175f76",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e21bde71-291c-414d-93cb-4a9850314e64",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e130bfa0-e3d3-4215-9f92-1d6d3e8e9c77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .product-image-photo",
+      "targets": [
+        ["css=.item:nth-child(1) .product-image-photo", "css:finder"],
+        ["xpath=//img[@alt='Radiant Tee']", "xpath:img"],
+        ["xpath=//main[@id='maincontent']/div[3]/div/div[3]/div[2]/ol/li/div/a/span/span/img", "xpath:idRelative"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a7236beb-9677-4ee7-8a57-cd7b5699779b",
+    "name": "Shops",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://magento.softwaretestingboard.com/", "https://google.com/"],
+  "plugins": []
+}
