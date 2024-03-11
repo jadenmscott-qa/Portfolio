@@ -17,7 +17,7 @@ Welcome to my portfolio! Here you will find a myriad of projects I am working on
 
 ## Projects
 - [JIRA Board - Work management system](https://umami-panduh.atlassian.net/jira/core/projects/JE/board#/rule-list?systemLabelId=project&page=1&pageSize=20&sortKey=name&sortOrder=ASC)
-- [Selenium IDE]()
+- [Selenium IDE](/SeleniumIDE/Overview.md)
 - [Selenium WebDriver]()
 - [Playwright]()
 - [Postman]()
