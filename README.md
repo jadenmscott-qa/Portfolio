@@ -11,25 +11,26 @@ Welcome to my portfolio! Here you will find a myriad of projects I am working on
 | Postman | Transparent Communication |
 | Selenium | Adaptability |
 | Playwright | Time Management |
-| Azure DevOps | Problem Solving |
+| Azure DevOps, JIRA | Problem Solving |
 | Visual Studio/Visual Studio Code | Organization |
 
 
 ## Projects
-- [Selenium IDE]()
-- [Selenium WebDriver]()
-- [Playwright]()
-- [Postman]()
+- [JIRA](https://umami-panduh.atlassian.net/jira/core/projects/JE/board#/rule-list?systemLabelId=project&page=1&pageSize=20&sortKey=name&sortOrder=ASC)
+- [Selenium IDE]() - Merged into project
+- [Selenium WebDriver]() - Currently in progress!
+- [Playwright]() - TBD
+- [Postman]() - TBD
 
 ## Experience Overview
 - Software Quality Assurance Analyst I
-    - Main point of cotact for application support
+    - Main point of contact for application support
     - Performed extensive manual regression testing every sprint, and reported the viability of the release to the developers. 
     - Collaborated with stakeholders, Project Owners, and developers to ensure clarity of all impending changes to the application
 - Software Technician
     - Collaborated with developers to achieve sprint goal
     - Assisted with application support and triaged when needed
-    - Perhormed Ad Hoc testing and created bugs accordingly
+    - Performed Ad Hoc testing and created bugs accordingly
 - Entry-Level .NET Developer
     - Collaborated with team to resolve minor bugs in multiple in-house applications
     - Initiated SQL database upgrades
