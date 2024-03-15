@@ -19,3 +19,14 @@ C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\obj\Debug\net6.
 C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\obj\Debug\net6.0\SeleniumWebDriver.pdb
 C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\obj\Debug\net6.0\SeleniumWebDriver.genruntimeconfig.cache
 C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\obj\Debug\net6.0\ref\SeleniumWebDriver.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\jscot\source\repos\Selenium\Portfolio\SeleniumWebDriver\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll

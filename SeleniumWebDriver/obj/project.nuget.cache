@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IYc1TWaSVEFEW4JfHDjPcfJorP4WA2MIskd3iUf5tJt+0hU/NxnzBeVCAFBcN2kSWqXycyDzEVV5jHuj1elwxA==",
+  "dgSpecHash": "sGtGs0VM/Cu8E7G+JnAQbzKieCr9SLhPoeHWOKnc8KIJOx+cfH+RZ81uH6Isi1g4pejDpvINyrBd1QrQ+TpMgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jscot\\source\\repos\\Selenium\\Portfolio\\SeleniumWebDriver\\SeleniumWebDriver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jscot\\.nuget\\packages\\chromium.chromedriver\\2.37.0\\chromium.chromedriver.2.37.0.nupkg.sha512",
+    "C:\\Users\\jscot\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\8.0.3\\microsoft.aspnetcore.components.webassembly.server.8.0.3.nupkg.sha512",
     "C:\\Users\\jscot\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\jscot\\.nuget\\packages\\selenium.webdriver\\4.18.1\\selenium.webdriver.4.18.1.nupkg.sha512"
   ],

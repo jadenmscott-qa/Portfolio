@@ -9,6 +9,7 @@
       "SeleniumWebDriver/1.0.0": {
         "dependencies": {
           "Chromium.ChromeDriver": "2.37.0",
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.3",
           "Selenium.WebDriver": "4.18.1"
         },
         "runtime": {
@@ -16,6 +17,7 @@
         }
       },
       "Chromium.ChromeDriver/2.37.0": {},
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/8.0.3": {},
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -49,6 +51,13 @@
       "sha512": "sha512-p/5WFR9H4RN4/oTC4z1TWXVjJ94N+Tp9F5PBE5LcmGf17uh5Xvt9UkjyEnUgRPjMG+zHyDmBVxR6Zi0/1Npkqg==",
       "path": "chromium.chromedriver/2.37.0",
       "hashPath": "chromium.chromedriver.2.37.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t2G7KRvoKiHIRtQwYXrxyoTm0KAItB2HLUAk0rgIAZm7RvHgJpBYBIo+IfZu4S5870s+NGpwybScfNCecKatuA==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/8.0.3",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.8.0.3.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",

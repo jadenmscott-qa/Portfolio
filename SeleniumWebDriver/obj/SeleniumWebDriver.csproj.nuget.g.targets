@@ -2,5 +2,6 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)selenium.webdriver\4.18.1\buildTransitive\Selenium.WebDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver\4.18.1\buildTransitive\Selenium.WebDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.server\8.0.3\build\Microsoft.AspNetCore.Components.WebAssembly.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.server\8.0.3\build\Microsoft.AspNetCore.Components.WebAssembly.Server.targets')" />
   </ImportGroup>
 </Project>

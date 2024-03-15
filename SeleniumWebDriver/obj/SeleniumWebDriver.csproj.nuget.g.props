@@ -15,6 +15,7 @@
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\jscot\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\8.0.3</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
     <PkgChromium_ChromeDriver Condition=" '$(PkgChromium_ChromeDriver)' == '' ">C:\Users\jscot\.nuget\packages\chromium.chromedriver\2.37.0</PkgChromium_ChromeDriver>
   </PropertyGroup>
 </Project>
